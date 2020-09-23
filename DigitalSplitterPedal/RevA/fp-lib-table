@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name NeutrikNRJ)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/CONNECTORS/AUDIO/NeutrikNRJ.pretty)(options "")(descr ""))
+  (lib (name Hammond1590)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/ENCLOSURES/HAMMOND/Hammond1590.pretty)(options "")(descr ""))
+  (lib (name RS_Switches)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/SWITCHES/RS_Switches.pretty)(options "")(descr ""))
+  (lib (name Bourn_PTL_Slider)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/POTS/SLIDERS/Bourn_PTL_Slider.pretty)(options "")(descr ""))
+  (lib (name Bourn_PTA_Slider)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/POTS/SLIDERS/Bourn_PTA_Slider.pretty)(options "")(descr ""))
+  (lib (name XP_ISA)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/PWR/DC-DC/ISOLATED/XP_ISA.pretty)(options "")(descr ""))
+)

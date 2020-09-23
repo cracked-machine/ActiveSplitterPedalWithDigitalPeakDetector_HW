@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 15
+Title "Power Supply"
+Date "2020-09-23"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2425 2425 0    50   Input ~ 0
++9V_IN
+$Comp
+L Device:D_Schottky D9
+U 1 1 5E6728BA
+P 2900 2425
+F 0 "D9" H 2900 2209 50  0000 C CNN
+F 1 "B0520LW-RH" H 2900 2300 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 2900 2425 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/B0520LW%20SERIES_I1601.pdf" H 2900 2425 50  0001 C CNN
+	1    2900 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2425 2425 2750 2425
+$Comp
+L power:GNDS #PWR?
+U 1 1 5F1615FF
+P 4825 3350
+AR Path="/5E6165F4/5F1615FF" Ref="#PWR?"  Part="1" 
+AR Path="/5E6A8284/5F1615FF" Ref="#PWR?"  Part="1" 
+AR Path="/5F3902BC/5F1615FF" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 4825 3100 50  0001 C CNN
+F 1 "GNDS" H 4830 3177 50  0000 C CNN
+F 2 "" H 4825 3350 50  0001 C CNN
+F 3 "" H 4825 3350 50  0001 C CNN
+	1    4825 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 2725 4825 3125
+Wire Wire Line
+	5125 2425 5600 2425
+$Comp
+L Device:C C?
+U 1 1 5F1633CE
+P 3600 2725
+AR Path="/5E6165F4/5F1633CE" Ref="C?"  Part="1" 
+AR Path="/5E6A8284/5F1633CE" Ref="C?"  Part="1" 
+AR Path="/5F3902BC/5F1633CE" Ref="C1"  Part="1" 
+F 0 "C1" H 3715 2771 50  0000 L CNN
+F 1 "100nF" H 3715 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3638 2575 50  0001 C CNN
+F 3 "~" H 3600 2725 50  0001 C CNN
+	1    3600 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2575 3600 2425
+Wire Wire Line
+	3600 2875 3600 3125
+$Comp
+L Device:C C?
+U 1 1 5F16440D
+P 5600 2725
+AR Path="/5E6165F4/5F16440D" Ref="C?"  Part="1" 
+AR Path="/5E6A8284/5F16440D" Ref="C?"  Part="1" 
+AR Path="/5F3902BC/5F16440D" Ref="C2"  Part="1" 
+F 0 "C2" H 5715 2771 50  0000 L CNN
+F 1 "1uF" H 5715 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5638 2575 50  0001 C CNN
+F 3 "~" H 5600 2725 50  0001 C CNN
+	1    5600 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2575 5600 2425
+Wire Wire Line
+	5600 2875 5600 3125
+Wire Wire Line
+	5600 3125 4825 3125
+Connection ~ 4825 3125
+Wire Wire Line
+	4825 3125 4825 3350
+Wire Wire Line
+	4825 3125 4100 3125
+Connection ~ 3600 2425
+Wire Wire Line
+	3600 2425 4100 2425
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5F1C5B5D
+P 3600 2425
+F 0 "#FLG01" H 3600 2500 50  0001 C CNN
+F 1 "PWR_FLAG" H 3600 2598 50  0000 C CNN
+F 2 "" H 3600 2425 50  0001 C CNN
+F 3 "~" H 3600 2425 50  0001 C CNN
+	1    3600 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F1D2B66
+P 5650 6350
+F 0 "#FLG02" H 5650 6425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 6523 50  0000 C CNN
+F 2 "" H 5650 6350 50  0001 C CNN
+F 3 "~" H 5650 6350 50  0001 C CNN
+	1    5650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6350 5650 6600
+$Comp
+L power:GNDS #PWR09
+U 1 1 5F1D3B2E
+P 5650 6600
+F 0 "#PWR09" H 5650 6350 50  0001 C CNN
+F 1 "GNDS" H 5655 6427 50  0000 C CNN
+F 2 "" H 5650 6600 50  0001 C CNN
+F 3 "" H 5650 6600 50  0001 C CNN
+	1    5650 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2425 3600 2425
+Connection ~ 5600 2425
+Text HLabel 8675 2425 2    50   Input ~ 0
+VOUT
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5F76C373
+P 7225 2425
+F 0 "JP1" H 7225 2700 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7225 2625 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7225 2425 50  0001 C CNN
+F 3 "~" H 7225 2425 50  0001 C CNN
+	1    7225 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2425 6100 2425
+Text Notes 6825 2350 0    50   ~ 0
+Current Measurement
+$Comp
+L Device:C C?
+U 1 1 5F770D1E
+P 6100 2725
+AR Path="/5E6165F4/5F770D1E" Ref="C?"  Part="1" 
+AR Path="/5E6A8284/5F770D1E" Ref="C?"  Part="1" 
+AR Path="/5F3902BC/5F770D1E" Ref="C21"  Part="1" 
+F 0 "C21" H 6215 2771 50  0000 L CNN
+F 1 "100nF" H 6215 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6138 2575 50  0001 C CNN
+F 3 "~" H 6100 2725 50  0001 C CNN
+	1    6100 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2575 6100 2425
+Connection ~ 6100 2425
+Wire Wire Line
+	6100 2425 7125 2425
+Wire Wire Line
+	6100 2875 6100 3125
+Wire Wire Line
+	6100 3125 5600 3125
+Connection ~ 5600 3125
+$Comp
+L Device:C C?
+U 1 1 5F771672
+P 4100 2725
+AR Path="/5E6165F4/5F771672" Ref="C?"  Part="1" 
+AR Path="/5E6A8284/5F771672" Ref="C?"  Part="1" 
+AR Path="/5F3902BC/5F771672" Ref="C20"  Part="1" 
+F 0 "C20" H 4215 2771 50  0000 L CNN
+F 1 "1uF" H 4215 2680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4138 2575 50  0001 C CNN
+F 3 "~" H 4100 2725 50  0001 C CNN
+	1    4100 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2575 4100 2425
+Connection ~ 4100 2425
+Wire Wire Line
+	4100 2425 4525 2425
+Wire Wire Line
+	4100 2875 4100 3125
+Connection ~ 4100 3125
+Wire Wire Line
+	4100 3125 3600 3125
+Wire Wire Line
+	7325 2425 8675 2425
+$Comp
+L Regulator_Linear:MCP1703A-3302_SOT223 U?
+U 1 1 5F88AFD5
+P 4825 2425
+F 0 "U?" H 4825 2667 50  0000 C CNN
+F 1 "MCP1703A-3302_SOT223" H 4825 2576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4825 2625 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 4825 2375 50  0001 C CNN
+	1    4825 2425
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
