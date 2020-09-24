@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2425 2425 0    50   Input ~ 0
+Text HLabel 1850 2425 0    50   Input ~ 0
 +9V_IN
 $Comp
 L Device:D_Schottky D9
@@ -27,7 +27,7 @@ F 3 "https://www.taiwansemi.com/products/datasheet/B0520LW%20SERIES_I1601.pdf" H
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2425 2425 2750 2425
+	1850 2425 2750 2425
 $Comp
 L power:GNDS #PWR?
 U 1 1 5F1615FF
@@ -198,10 +198,10 @@ Wire Wire Line
 Wire Wire Line
 	7325 2425 8675 2425
 $Comp
-L Regulator_Linear:MCP1703A-3302_SOT223 U?
+L Regulator_Linear:MCP1703A-3302_SOT223 U1
 U 1 1 5F88AFD5
 P 4825 2425
-F 0 "U?" H 4825 2667 50  0000 C CNN
+F 0 "U1" H 4825 2667 50  0000 C CNN
 F 1 "MCP1703A-3302_SOT223" H 4825 2576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4825 2625 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 4825 2375 50  0001 C CNN
