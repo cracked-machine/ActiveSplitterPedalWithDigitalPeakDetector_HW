@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 15
+Sheet 12 15
 Title ""
 Date ""
 Rev "A"
@@ -52,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3650 4900 3650
 Wire Wire Line
-	4900 3150 2950 3150
+	4900 3150 3575 3150
 Text HLabel 2950 3150 0    50   Input ~ 0
 VIN
 Wire Wire Line
@@ -97,8 +97,48 @@ Wire Wire Line
 	6425 3275 6425 3150
 Connection ~ 6425 3150
 Wire Wire Line
-	6425 3150 7200 3150
+	6425 3150 6825 3150
 Wire Wire Line
 	6425 3575 6425 3650
 Connection ~ 6425 3650
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F6DE647
+P 3575 2975
+AR Path="/5F6CB11D/5F6DE647" Ref="TP1"  Part="1" 
+AR Path="/5F6F05C2/5F6DE647" Ref="TP3"  Part="1" 
+AR Path="/5F6F456E/5F6DE647" Ref="TP5"  Part="1" 
+AR Path="/5F6F8B66/5F6DE647" Ref="TP7"  Part="1" 
+F 0 "TP7" H 3633 3093 50  0000 L CNN
+F 1 "TestPoint" H 3633 3002 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3775 2975 50  0001 C CNN
+F 3 "~" H 3775 2975 50  0001 C CNN
+	1    3575 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 2975 3575 3150
+Connection ~ 3575 3150
+Wire Wire Line
+	3575 3150 2950 3150
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F6DF27F
+P 6825 2975
+AR Path="/5F6CB11D/5F6DF27F" Ref="TP2"  Part="1" 
+AR Path="/5F6F05C2/5F6DF27F" Ref="TP4"  Part="1" 
+AR Path="/5F6F456E/5F6DF27F" Ref="TP6"  Part="1" 
+AR Path="/5F6F8B66/5F6DF27F" Ref="TP8"  Part="1" 
+F 0 "TP8" H 6883 3093 50  0000 L CNN
+F 1 "TestPoint" H 6883 3002 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7025 2975 50  0001 C CNN
+F 3 "~" H 7025 2975 50  0001 C CNN
+	1    6825 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2975 6825 3150
+Connection ~ 6825 3150
+Wire Wire Line
+	6825 3150 7200 3150
 $EndSCHEMATC

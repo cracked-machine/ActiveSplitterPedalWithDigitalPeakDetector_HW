@@ -93,20 +93,16 @@ Wire Wire Line
 Text Label 7175 3500 0    50   ~ 0
 SYS_SWDIO
 Wire Wire Line
-	6875 2800 7175 2800
+	5775 3400 5475 3400
 Wire Wire Line
-	6875 2900 7175 2900
+	5775 3500 5475 3500
 Wire Wire Line
-	6875 3000 7175 3000
+	5775 3100 5475 3100
 Wire Wire Line
-	6875 3100 7175 3100
+	5775 3200 5475 3200
 NoConn ~ 5775 2800
 NoConn ~ 5775 2900
-NoConn ~ 5775 3100
-NoConn ~ 5775 3200
 NoConn ~ 5775 3300
-NoConn ~ 5775 3400
-NoConn ~ 5775 3500
 NoConn ~ 5775 3600
 NoConn ~ 5775 3700
 NoConn ~ 6875 3700
@@ -193,13 +189,13 @@ Wire Wire Line
 	3400 4175 3550 4175
 Text Label 3550 4175 0    50   ~ 0
 PEAK_IN_ADC4
-Text Label 7175 2800 0    50   ~ 0
+Text Label 5475 3400 2    50   ~ 0
 PEAK_OUT_PWM1
-Text Label 7175 2900 0    50   ~ 0
+Text Label 5475 3500 2    50   ~ 0
 PEAK_OUT_PWM2
-Text Label 7175 3000 0    50   ~ 0
+Text Label 5475 3100 2    50   ~ 0
 PEAK_OUT_PWM3
-Text Label 7175 3100 0    50   ~ 0
+Text Label 5475 3200 2    50   ~ 0
 PEAK_OUT_PWM4
 Wire Wire Line
 	4975 6575 4200 6575
@@ -380,12 +376,12 @@ $EndComp
 $Comp
 L Device:LED D14
 U 1 1 5F78D251
-P 9600 2300
-F 0 "D14" H 9725 2200 50  0000 C CNN
-F 1 "LED" H 9575 2200 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9600 2300 50  0001 C CNN
-F 3 "~" H 9600 2300 50  0001 C CNN
-	1    9600 2300
+P 9600 3175
+F 0 "D14" H 9725 3075 50  0000 C CNN
+F 1 "LED" H 9575 3075 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9600 3175 50  0001 C CNN
+F 3 "~" H 9600 3175 50  0001 C CNN
+	1    9600 3175
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -406,12 +402,12 @@ $EndComp
 $Comp
 L Device:LED D10
 U 1 1 5F78B888
-P 9600 3175
-F 0 "D10" H 9725 3050 50  0000 C CNN
-F 1 "LED" H 9575 3050 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9600 3175 50  0001 C CNN
-F 3 "~" H 9600 3175 50  0001 C CNN
-	1    9600 3175
+P 9600 2900
+F 0 "D10" H 9725 2775 50  0000 C CNN
+F 1 "LED" H 9575 2775 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9600 2900 50  0001 C CNN
+F 3 "~" H 9600 2900 50  0001 C CNN
+	1    9600 2900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -432,12 +428,12 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5F78A20E
-P 9600 2900
-F 0 "D2" H 9725 2775 50  0000 C CNN
-F 1 "LED" H 9575 2775 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9600 2900 50  0001 C CNN
-F 3 "~" H 9600 2900 50  0001 C CNN
-	1    9600 2900
+P 9600 2600
+F 0 "D2" H 9725 2475 50  0000 C CNN
+F 1 "LED" H 9575 2475 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9600 2600 50  0001 C CNN
+F 3 "~" H 9600 2600 50  0001 C CNN
+	1    9600 2600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -458,12 +454,12 @@ $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5F7849FB
-P 9600 2600
-F 0 "D1" H 9725 2475 50  0000 C CNN
-F 1 "LED" H 9575 2475 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9600 2600 50  0001 C CNN
-F 3 "~" H 9600 2600 50  0001 C CNN
-	1    9600 2600
+P 9600 2300
+F 0 "D1" H 9725 2175 50  0000 C CNN
+F 1 "LED" H 9575 2175 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9600 2300 50  0001 C CNN
+F 3 "~" H 9600 2300 50  0001 C CNN
+	1    9600 2300
 	-1   0    0    1   
 $EndComp
 Text Label 9300 2300 2    50   ~ 0
@@ -515,4 +511,168 @@ F1 "InputBufferMCU.sch" 50
 F2 "PEAK_IN_BUF" I L 2125 2050 50 
 F3 "PEAK_OUT_BUF" I R 3400 2050 50 
 $EndSheet
+NoConn ~ 6875 2800
+NoConn ~ 6875 2900
+NoConn ~ 6875 3000
+NoConn ~ 6875 3100
+Text Label 8425 5250 2    50   ~ 0
+PEAK_OUT_PWM4
+Text Label 8425 5375 2    50   ~ 0
+PEAK_OUT_PWM3
+Text Label 8425 5500 2    50   ~ 0
+PEAK_OUT_PWM2
+Text Label 8425 5625 2    50   ~ 0
+PEAK_OUT_PWM1
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6E6675
+P 8725 5250
+AR Path="/5F6CB11D/5F6E6675" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6E6675" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6E6675" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6E6675" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6E6675" Ref="TP9"  Part="1" 
+F 0 "TP9" V 8725 5450 50  0000 L CNN
+F 1 "TestPoint" V 8500 5200 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5250 50  0001 C CNN
+F 3 "~" H 8925 5250 50  0001 C CNN
+	1    8725 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8425 5250 8725 5250
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6ECAE6
+P 8725 5375
+AR Path="/5F6CB11D/5F6ECAE6" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6ECAE6" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6ECAE6" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6ECAE6" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6ECAE6" Ref="TP10"  Part="1" 
+F 0 "TP10" V 8725 5575 50  0000 L CNN
+F 1 "TestPoint" V 8500 5325 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5375 50  0001 C CNN
+F 3 "~" H 8925 5375 50  0001 C CNN
+	1    8725 5375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8425 5375 8725 5375
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6F5F7C
+P 8725 5500
+AR Path="/5F6CB11D/5F6F5F7C" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6F5F7C" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6F5F7C" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6F5F7C" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6F5F7C" Ref="TP11"  Part="1" 
+F 0 "TP11" V 8725 5700 50  0000 L CNN
+F 1 "TestPoint" V 8500 5450 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5500 50  0001 C CNN
+F 3 "~" H 8925 5500 50  0001 C CNN
+	1    8725 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8425 5500 8725 5500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6F8049
+P 8725 5625
+AR Path="/5F6CB11D/5F6F8049" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6F8049" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6F8049" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6F8049" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6F8049" Ref="TP12"  Part="1" 
+F 0 "TP12" V 8725 5825 50  0000 L CNN
+F 1 "TestPoint" V 8500 5575 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5625 50  0001 C CNN
+F 3 "~" H 8925 5625 50  0001 C CNN
+	1    8725 5625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8425 5625 8725 5625
+Wire Wire Line
+	8725 6075 8425 6075
+Text Label 8425 6075 2    50   ~ 0
+PEAK_IN_ADC1
+Wire Wire Line
+	8725 5975 8425 5975
+Text Label 8425 5975 2    50   ~ 0
+PEAK_IN_ADC2
+Wire Wire Line
+	8725 5875 8425 5875
+Text Label 8425 5875 2    50   ~ 0
+PEAK_IN_ADC3
+Wire Wire Line
+	8725 5775 8425 5775
+Text Label 8425 5775 2    50   ~ 0
+PEAK_IN_ADC4
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6FC372
+P 8725 5775
+AR Path="/5F6CB11D/5F6FC372" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6FC372" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6FC372" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6FC372" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6FC372" Ref="TP13"  Part="1" 
+F 0 "TP13" V 8725 5975 50  0000 L CNN
+F 1 "TestPoint" V 8500 5725 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5775 50  0001 C CNN
+F 3 "~" H 8925 5775 50  0001 C CNN
+	1    8725 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6FC884
+P 8725 5875
+AR Path="/5F6CB11D/5F6FC884" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6FC884" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6FC884" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6FC884" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6FC884" Ref="TP14"  Part="1" 
+F 0 "TP14" V 8725 6075 50  0000 L CNN
+F 1 "TestPoint" V 8500 5825 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5875 50  0001 C CNN
+F 3 "~" H 8925 5875 50  0001 C CNN
+	1    8725 5875
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6FD804
+P 8725 5975
+AR Path="/5F6CB11D/5F6FD804" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6FD804" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6FD804" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6FD804" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6FD804" Ref="TP15"  Part="1" 
+F 0 "TP15" V 8725 6175 50  0000 L CNN
+F 1 "TestPoint" V 8500 5925 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 5975 50  0001 C CNN
+F 3 "~" H 8925 5975 50  0001 C CNN
+	1    8725 5975
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F6FDB02
+P 8725 6075
+AR Path="/5F6CB11D/5F6FDB02" Ref="TP?"  Part="1" 
+AR Path="/5F6F05C2/5F6FDB02" Ref="TP?"  Part="1" 
+AR Path="/5F6F456E/5F6FDB02" Ref="TP?"  Part="1" 
+AR Path="/5F6F8B66/5F6FDB02" Ref="TP?"  Part="1" 
+AR Path="/5F6CB23D/5F6FDB02" Ref="TP16"  Part="1" 
+F 0 "TP16" V 8725 6275 50  0000 L CNN
+F 1 "TestPoint" V 8500 6025 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8925 6075 50  0001 C CNN
+F 3 "~" H 8925 6075 50  0001 C CNN
+	1    8725 6075
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
