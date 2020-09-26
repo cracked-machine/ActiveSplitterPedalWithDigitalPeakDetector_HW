@@ -9,3 +9,33 @@
 ### System Overview
 
 ![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/systemdesign/ActiveSplitterPedalWithDigitalPeakDetector_SystemOverview.svg)
+
+### Schematic
+
+##### Top Level
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/schema/svg/ActiveSplitterPedalWithDigitalPeakDetector.svg)
+
+
+##### Power Supply block
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/schema/svg/Pos3V3_PSU-PowerSupply.svg)
+
+##### Buffer/Attenuator block
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/schema/svg/InputBufferMCU-PeakDetectorMCU-InputBufferMCU1.svg)
+
+##### Peak Detector block
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/schema/svg/PeakDetectorMCU-PeakDetectorMCU.svg)
+
+## 3D Renderings
+TODO
+
+__PCB 3D Render (top view)__
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/layout/Layout_Front.png)
+
+__PCB 3D Render (bottom view)__
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/layout/Layout__Back.png)
