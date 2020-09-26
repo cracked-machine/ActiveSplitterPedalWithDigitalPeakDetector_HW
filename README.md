@@ -2,4 +2,4 @@
 
 ### System Overview
 
-![](DigitalSplitterPedal/RevA/docs/systemdesign/DigitalSplitterOverview.svg)
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/systemdesign/ActiveSplitterPedalWithDigitalPeakDetector_SystemOverview.svg)
