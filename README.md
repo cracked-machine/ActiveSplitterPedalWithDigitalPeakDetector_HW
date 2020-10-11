@@ -31,12 +31,18 @@ Related SW project: https://github.com/cracked-machine/DigitalPeakDetector_SW
 ![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/schema/svg/PeakDetectorMCU-PeakDetectorMCU.svg)
 
 ## 3D Renderings
-TODO
 
-__PCB 3D Render (top view)__
+__PCB__
 
-![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/layout/Layout_Front.png)
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/layout_3d_render/ActiveSplitterPedalWithDigitalPeakDetector_PCB.png)
 
-__PCB 3D Render (bottom view)__
+__Front Panel__
 
-![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/layout/Layout__Back.png)
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/panels/front/docs/layout_3d_render/ActiveSplitterPedalWithDigitalPeakDetector_FRONTPANEL.png)
+
+__Back Panel__
+
+This is the same back panel used for
+[ActiveMixerPedalWithDigitalPeakDetector_HW ](https://github.com/cracked-machine/ActiveMixerPedalWithDigitalPeakDetector_HW)
+
+![](https://raw.githubusercontent.com/cracked-machine/ActiveMixerPedalWithDigitalPeakDetector_HW/master/ActiveMixerPedalWithDigitalPeakDetector/RevA/panels/back/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_BACKPANEL.png)
