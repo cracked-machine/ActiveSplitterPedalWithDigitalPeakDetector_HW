@@ -49,5 +49,5 @@ This is the same back panel used for
 
 __PCB and panel profile__
 
-![](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
 
