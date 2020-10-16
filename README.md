@@ -46,3 +46,8 @@ This is the same back panel used for
 [ActiveMixerPedalWithDigitalPeakDetector_HW ](https://github.com/cracked-machine/ActiveMixerPedalWithDigitalPeakDetector_HW)
 
 ![](https://raw.githubusercontent.com/cracked-machine/ActiveMixerPedalWithDigitalPeakDetector_HW/master/ActiveMixerPedalWithDigitalPeakDetector/RevA/panels/back/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_BACKPANEL.png)
+
+__PCB and panel profile__
+
+![](ActiveSplitterPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
+
