@@ -5,16 +5,16 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6-0-10_14)"
+      "Version":     "5.1.6-c6e7f7d~87~ubuntu18.04.1"
     },
-    "CreationDate":  "2020-09-25T10:57:10+01:00"
+    "CreationDate":  "2020-10-23T07:39:38+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "DigitalSplitterPedal",
-      "GUID": "44696769-7461-46c5-9370-6c6974746572",
+      "Name": "ActiveSplitterPedalWithDigitalPeakDetector",
+      "GUID": "41637469-7665-4537-906c-697474657250",
       "Revision": "rev?"
     },
     "Size":
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "DigitalSplitterPedal-F_Cu.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DigitalSplitterPedal-B_Cu.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DigitalSplitterPedal-F_SilkS.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DigitalSplitterPedal-B_SilkS.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DigitalSplitterPedal-F_Mask.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "DigitalSplitterPedal-B_Mask.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "DigitalSplitterPedal-Edge_Cuts.gbr",
+      "Path":  "ActiveSplitterPedalWithDigitalPeakDetector-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
