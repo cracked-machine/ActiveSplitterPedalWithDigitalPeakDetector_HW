@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 5 15
 Title ""
 Date ""
 Rev "A"
@@ -33,7 +33,7 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5F59292E
-P 6225 2875
+P 5650 2875
 AR Path="/5F3F1F31/5F59292E" Ref="R?"  Part="1" 
 AR Path="/5F512144/5F59292E" Ref="R?"  Part="1" 
 AR Path="/5F515E89/5F59292E" Ref="R?"  Part="1" 
@@ -46,11 +46,11 @@ AR Path="/5F6112B6/5F59292E" Ref="R?"  Part="1"
 AR Path="/5F6A30B2/5F59292E" Ref="R11"  Part="1" 
 AR Path="/5F6A445C/5F59292E" Ref="R17"  Part="1" 
 AR Path="/5F6AEF24/5F59292E" Ref="R23"  Part="1" 
-F 0 "R23" V 6018 2875 50  0000 C CNN
-F 1 "560R" V 6109 2875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6155 2875 50  0001 C CNN
-F 3 "~" H 6225 2875 50  0001 C CNN
-	1    6225 2875
+F 0 "R23" V 5443 2875 50  0000 C CNN
+F 1 "560R" V 5534 2875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 2875 50  0001 C CNN
+F 3 "~" H 5650 2875 50  0001 C CNN
+	1    5650 2875
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -100,10 +100,10 @@ Wire Wire Line
 	6675 2175 6675 2875
 Connection ~ 6675 2875
 Wire Wire Line
-	6675 2875 6375 2875
+	6675 2875 5800 2875
 Wire Wire Line
 	8525 2975 9725 2975
-Text Notes 6925 1075 0    50   ~ 0
+Text Notes 5100 2525 0    50   ~ 0
 if using RVf=10K use Rin=5K6
 Connection ~ 8525 2975
 Wire Wire Line
@@ -167,7 +167,7 @@ Wire Wire Line
 	8525 1350 8525 2175
 Connection ~ 8525 2175
 Wire Wire Line
-	4300 2875 6075 2875
+	4300 2875 5500 2875
 $Comp
 L Amplifier_Operational:TL072 U2
 U 1 1 5F59AE7C
